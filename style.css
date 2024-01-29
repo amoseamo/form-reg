@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.form-head{
+	width:25%;
+	margin:auto;
+}
+.forms{
+	margin:50px 0;
+	padding:20px;
+	border-radius:10px;
+	box-shadow:0 0 5px;
+	text-align:center;
+	background-color:#FAF9F6;
+}
+.forms h1{
+	padding-bottom:10px;
+	color:#A9A9A9;
+}
+.radio-button{
+	padding:15px;
+}
+.radio-button input{
+	margin:0 20px;
+	transform: scale(1);
+}
+.radio-button input::before{
+	content:'';
+	display:inline-block;
+	border:none;
+	border-radius:50%;
+	width:16px;
+	height:17px;
+	background-color:rgb(66 103 178);
+}	
+.radio-button input:checked::before{
+	content:'\2714';
+	display:inline-block;
+	border:none;
+	border-radius:50%;
+	width:16px;
+	height:17px;
+	color:#ffffff;
+	background-color:rgb(66 103 178);
+	text-align:center;
+}	
+.form-input{
+	padding:20px 0;
+}
+.input_icon{
+	padding:10px 0;	
+	position:relative;
+}
+.input_icon input{
+	width:60%;
+	padding:10px 5px;
+}
+.input_icon i{
+	padding:10px;
+	background-color:rgb(66 103 178);
+	color:#ffffff;	
+	position:absolute;
+	bottom:17%;
+	left:10%;
+}
+.about{
+	display:flex;
+}
+.about-content{
+	width:50%;
+	font-size:0.8rem;
+	padding:10px 0 10px 15px;
+}
+.about-content a{
+	color:#000080;
+	font-weight:bold;
+}
+.register-button{
+	width:50%;
+	padding:15px 0;
+}
+.register-button button{
+	padding:7px 14px;
+	background-color:rgb(66 103 178);
+	color:#ffffff;
+	border:none;
+	border-radius:5px;
+}
